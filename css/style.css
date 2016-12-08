@@ -44,13 +44,15 @@ p{
     background-color: rgb(37, 120, 250);
 }
 
+/*
+
 .navIcons{
     position: relative;
     padding-left: 42px;
     top: 17.5px;
     width: 25px;
 }
-
+*/
 #mainContainer{
     margin-top: 50px;
     border: 2px solid black;
