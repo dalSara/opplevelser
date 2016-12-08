@@ -1,4 +1,54 @@
+/*-----------------Css for finn app Opplevelser------------------------*/
+
+
+
+
+
+/*-
+--- Main styles used all over the app
+--- Style used in Index page
+--- Style used in opplevelser start page
+---
+---
+---
+-*/
+
+
+
+
+/*---------------Used in the main content style of the header footer and style-------------------*/
 p{
     font-family: "helvetica";
     font-weight: lighter;
 }
+<style>
+    #mainContainer{
+        border: 5px solid black;
+        width: 640px;
+
+    }
+    #header{
+        width: 640px;
+        height: 136px;
+        background-color: rgb(37, 120, 250);
+    }
+
+    #mainContent{
+        width: 640px;
+        height: 864px;
+    }
+
+    #footer{
+        width: 640px;
+        height: 136px;
+        background-color: rgb(37, 120, 250);
+    }
+
+    .navIcons{
+        position: relative;
+        padding-left: 85px;
+        top: 35px;
+    }
+
+
+/*-----------------------------------------*/
