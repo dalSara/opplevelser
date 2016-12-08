@@ -23,31 +23,31 @@ p{
 }
 <style>
     #mainContainer{
-        border: 5px solid black;
-        width: 640px;
+        border: 2px solid black;
+        width: 320px;
 
     }
     #header{
-        width: 640px;
-        height: 136px;
+        width: 320px;
+        height: 68px;
         background-color: rgb(37, 120, 250);
     }
 
     #mainContent{
-        width: 640px;
-        height: 864px;
+        width: 320px;
+        height: 432px;
     }
 
     #footer{
-        width: 640px;
-        height: 136px;
+        width: 320px;
+        height: 68px;
         background-color: rgb(37, 120, 250);
     }
 
     .navIcons{
         position: relative;
-        padding-left: 85px;
-        top: 35px;
+        padding-left: 42px;
+        top: 17.5px;
     }
 
 
