@@ -14,7 +14,8 @@
 -*/
 
 body {
-    font-family: "helvetica light";
+    font-family: "helvetica";
+    font-weight: 100;
 }
 
 
@@ -22,13 +23,15 @@ body {
 /*---------------Used in the main content style of the header footer and style-------------------*/
 p{
     font-family: "helvetica";
-    font-weight: lighter;
+    font-weight: 100;
+    font-size: 14px;
 }
 
     #mainContainer{
         margin-top: 50px;
         border: 2px solid black;
         width: 320px;
+        height: 100%;
         margin-right: auto;
         margin-left: auto;
 
@@ -48,6 +51,8 @@ p{
     #mainContent{
         width: 320px;
         height: 432px;
+        padding-left: 3px;
+        padding-right: 3px;
     }
 
     #foot{
