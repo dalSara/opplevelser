@@ -21,35 +21,34 @@ p{
     font-family: "helvetica";
     font-weight: lighter;
 }
-<style>
-    #mainContainer{
-        border: 2px solid black;
-        width: 320px;
+#mainContainer{
+    border: 2px solid black;
+    width: 320px;
 
-    }
-    #header{
-        width: 320px;
-        height: 68px;
-        background-color: rgb(37, 120, 250);
-    }
+}
+#header{
+    width: 320px;
+    height: 68px;
+    background-color: rgb(37, 120, 250);
+}
 
-    #mainContent{
-        width: 320px;
-        height: 432px;
-    }
+#mainContent{
+    width: 320px;
+    height: 432px;
+}
 
-    #footer{
-        width: 320px;
-        height: 68px;
-        background-color: rgb(37, 120, 250);
-    }
+#footer{
+    width: 320px;
+    height: 68px;
+    background-color: rgb(37, 120, 250);
+}
 
-    .navIcons{
-        position: relative;
-        padding-left: 42px;
-        top: 17.5px;
-        width: 25px;
-    }
+.navIcons{
+    position: relative;
+    padding-left: 42px;
+    top: 17.5px;
+    width: 25px;
+}
 
 
 /*-----------------------------------------*/
