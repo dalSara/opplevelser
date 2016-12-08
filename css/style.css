@@ -26,11 +26,7 @@ p{
     font-weight: 100;
     font-size: 14px;
 }
-#mainContainer{
-    border: 2px solid black;
-    width: 320px;
 
-}
 #header{
     width: 320px;
     height: 68px;
