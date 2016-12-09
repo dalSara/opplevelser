@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Bø Sommarland</title>
+
+</head>
+<body>
+
+<div id="mainContainer">
+
+    <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
+    <div id="head" class="headerTop">
+
+        <a href="opplevelserNarDeg.html">
+            <i class="fa fa-map-marker" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 26px; padding-top: 33px; padding-left: 260px; width: 20px; float: right; z-index: 98;"></i>
+        </a>
+
+        <form style="padding-top: 30px; float: right">
+	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
+        </form>
+
+        <!--PIL TILBAKE-->
+        <a onclick="goBack()">
+            <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
+        </a>
+        <!--END PIL TILBAKE-->
+
+        <img src="img/finnLogo.png" class="finnLogo" style="position: absolute; padding-left: 125px; z-index: 1;">
+
+    </div>
+    <!--END NY HEADER MED SOK-->
+
+    <div id="mainContent">
+        <img id="boSommarland" src="img/boSommarland.png" alt="Bø Sommarland">
+
+        <div id="txtBox">
+            <p>Bø Sommarland ligger i Bø i Telemark og er en av Norges største turistattraksjoner med om lag 200 000 besøkende årlig. Parken ble åpnet i 1985, og er Norges eneste utendørs vannaktivitetspark. Bø Sommarland AS eies av det spanske konsernet Parques Reunidos, som også eier fornøyelsesparken Tusenfryd.</p>
+
+            <p class="eventPlace">Steintjønnvegen 2 <br> 3804 Bø i Telemark</p>
+
+            <div class="ticketBtnDiv">
+                <input class="ticketBtn" onclick="window.location='kentAntallBill.html';" type="submit" value="Finn billetter">
+            </div>
+        </div>
+    </div>
+
+    <div id="foot">
+        <a href="index.html"><img class="navIcons" src="img/hjem_nav.png"></a>
+        <a href="sisteNytt.html"><img class="navIcons" src="img/sisteNytt_nav.png"></a>
+        <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
+        <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
+    </div>
+
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>
