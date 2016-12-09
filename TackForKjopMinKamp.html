@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Hur vil du betale?</title>
+
+
+</head>
+<body>
+
+<div id="mainContainer">
+
+    <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
+    <div id="head" class="headerTop">
+
+        <form style="padding-top: 30px; float: right">
+	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
+        </form>
+
+        <!--PIL TILBAKE-->
+        <a onclick="goBack()">
+        <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
+        </a>
+        <!--END PIL TILBAKE-->
+
+        <img src="img/finnLogo.png" class="finnLogo" style="position: absolute; padding-left: 125px; z-index: 1;">
+
+    </div>
+    <!--END NY HEADER MED SOK-->
+
+    <div id="mainContent">
+        <h3 class="priceTitle">Dine biletter</h3>
+        <div class="priceBox">
+            <p>Min Kamp - Plan 1<br>
+                2 personer<br>
+            470.00 Nok x 2<br>
+            -----------------------<br>
+            Totalt 940.00 Nok<br>
+            Hvor av moms 95.00 Nok</p>
+        </div><br>
+
+        <div class="wayOfPayment">
+            <h3 class="priceTitle">Tack for ditt kjøp!</h3>
+            <h4 class="priceTitle">Valg for biletter</h4>
+            <a href="downLoadPdf.html" class="tickets">Last ned PDF</a><br>
+            <a href="sendTilEpost.html" class="tickets">Send til min E-post<a/><br>
+        </div>
+
+        <div class="qr">
+            <img src="img/qr.png" class="qr">
+        </div>
+    </div>
+
+    <div id="foot">
+        <a href="index.html"><img class="navIcons" src="img/hjem_nav.png"></a>
+        <a href="sisteNytt.html"><img class="navIcons" src="img/sisteNytt_nav.png"></a>
+        <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
+        <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
+    </div>
+</div>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</body>
+</html>
