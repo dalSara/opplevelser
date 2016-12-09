@@ -131,7 +131,7 @@ p{
             outline: none;
         }
 
-/*------------------kent, minKamp, inferno-----------------------*/
+/*------------------kent, minKamp, inferno, boSommarland-----------------------*/
 #kent, #minKamp, #scene, #inferno, #boSommarland{
     width: 320px;
 }
@@ -154,9 +154,9 @@ p{
     font-size: 10px;
     width: auto;
 }
-/*------------------end kent, minKamp, inferno-----------------------*/
+/*------------------end kent, minKamp, inferno, boSommarland-----------------------*/
 
-/*------------------kentAntallBill, minKampAntallBill, infernoAntallBill-----------------------*/
+/*------------------kentAntallBill, minKampAntallBill, infernoAntallBill, boSommarlandAntallBill-----------------------*/
 .buyTicketBtn{
     width: 150px;
     font-size: 1em;
@@ -167,7 +167,10 @@ p{
 .nrSelect{
     margin-bottom: 20px;
 }
-/*------------------end kentAntallBill, minKampAntallBill, infernoAntallBill-----------------------*/
+#datepicker{
+    background-color: rgb(255, 255, 255);
+}
+/*------------------end kentAntallBill, minKampAntallBill, infernoAntallBill, boSommarlandAntallBill-----------------------*/
 
 
 /*-----------------------------------------*/

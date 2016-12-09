@@ -4,10 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css"><!--datepicker-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <title>Bø Sommarland - billetter</title>
 
+    <style>
+        #ui-datepicker-div{
+            width: 200px;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -39,6 +46,9 @@
         <img id="boSommarland" src="img/boSommarland.png" alt="Bø Sommarland">
 
         <div id="txtBox">
+
+            <p>Dato fra: <input class="datepicker" type="text"></p>
+            <p>Dato til: <input class="datepicker" type="text"></p>
 
             <p><b>Barn (under 95 - 140 cm)</b><br>99.00 NOK (ink. moms)</p>
 
@@ -87,10 +97,18 @@
 
 </div>
 
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script><!--datepicker-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><!--datepicker-->
+
 <script>
     function goBack() {
         window.history.back();
     }
+
+    var date = $('.datepicker').datepicker({ dateFormat: 'dd-mm-yy' }).val();
+
+    $(".datepicker").datepicker();
+
 </script>
 
 </body>
