@@ -98,10 +98,10 @@ p{
 
 /*---------------Search bar style--------------------------*/
         input[type=search] {
-            background: #257afb url(../img/sok_header.png) no-repeat;
+            background: url(../img/sok_header.png) no-repeat;
             background-size: 33px;
             border: none;
-            padding: 4px 4px 4px 32px;
+            padding: 4px 6px 4px 32px;
             width: 33px;
             height: 33px;
 
@@ -110,13 +110,9 @@ p{
             transition: all .5s;
         }
 
-        input[type=search]:hover {
-	       background-color: #257afb;
-        }
-
         input[type=search]:focus {
             width: 310px;
-            padding-left: 32px;
+            padding-left: 40px;
             color: #fff;
             background-color: #257afb;
             cursor: auto;
