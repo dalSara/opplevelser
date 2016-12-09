@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<title>Bø Sommarland</title>
+<title>Bø Sommarland - billetter</title>
 
 </head>
 <body>
@@ -16,13 +16,13 @@
     <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
     <div id="head" class="headerTop">
 
-        <a href="opplevelserNarDeg.html">
+        <!--<a href="opplevelserNarDeg.html">
             <i class="fa fa-map-marker" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 26px; padding-top: 33px; padding-left: 260px; width: 20px; float: right; z-index: 98;"></i>
         </a>
 
         <form style="padding-top: 30px; float: right">
 	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
-        </form>
+        </form>-->
 
         <!--PIL TILBAKE-->
         <a onclick="goBack()">
@@ -39,12 +39,41 @@
         <img id="boSommarland" src="img/boSommarland.png" alt="Bø Sommarland">
 
         <div id="txtBox">
-            <p>Bø Sommarland ligger i Bø i Telemark og er en av Norges største turistattraksjoner med om lag 200 000 besøkende årlig. Parken ble åpnet i 1985, og er Norges eneste utendørs vannaktivitetspark. Bø Sommarland AS eies av det spanske konsernet Parques Reunidos, som også eier fornøyelsesparken Tusenfryd.</p>
 
-            <p class="eventPlace">Steintjønnvegen 2 <br> 3804 Bø i Telemark</p>
+            <p><b>Barn (under 95 - 140 cm)</b><br>99.00 NOK (ink. moms)</p>
 
-            <div class="ticketBtnDiv">
-                <input class="ticketBtn" onclick="window.location='boSommarlandAntallBill.html';" type="submit" value="Finn billetter">
+            <select class="nrSelect">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <p><b>Voksen (over 140 cm)</b><br>199.00 NOK (ink. moms)</p>
+
+            <select class="nrSelect">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <div class="ticketBtnDiv"> <!--Legg inn onclick!-->
+                <input class="buyTicketBtn" onclick="window.location='';" type="submit" value="Kjøp billetter">
             </div>
         </div>
     </div>
