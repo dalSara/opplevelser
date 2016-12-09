@@ -95,6 +95,7 @@ p{
     }
 
 
+<<<<<<< HEAD
 /*---------------Search bar style--------------------------*/
         input[type=search] {
             background: #257afb url(../img/sok_header.png) no-repeat;
@@ -131,6 +132,31 @@ p{
         textarea:focus, input:focus{
             outline: none;
         }
+=======
+/*------------------Kent, Min kamp-----------------------*/
+#kent, #minKamp{
+    width: 320px;
+}
+
+#txtBox{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ticketBtn{
+    width: 150px;
+    font-size: 1em;
+    background-color: rgb(37, 120, 250);
+    color: rgb(255, 255, 255);
+}
+.ticketBtnDiv{
+    text-align: center;
+}
+.eventPlace{
+    font-size: 10px;
+}
+/*------------------end Kent, Min kamp-----------------------*/
+
+>>>>>>> origin/master
 
 /*-----------------------------------------*/
 /*-----------------------------------------*/

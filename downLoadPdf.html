@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <title>Laste ned pdf</title>
@@ -26,8 +27,16 @@
 <div id="mainContainer">
 
     <div id="head" class="headerTop">
+        <a href="sok.html"><img src="img/sok_header.png" class="headerIcons" style="padding-top: 30px; float: right"></a>
+
+        <!--PIL TILBAKE-->
+        <a onclick="goBack()">
+        <i class="fa fa-angle-left" aria-hidden="true" style="color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left"></i>
+        </a>
+        <!--END PIL TILBAKE-->
+
         <img src="img/finnLogo.png" class="finnLogo">
-        <a href="sok.html"><img src="img/sok_header.png" class="headerIcons" style="float: right"></a>
+
     </div>
 
     <div id="mainContent">
@@ -49,5 +58,10 @@
     </div>
 </div>
 
+    <script>
+function goBack() {
+    window.history.back();
+}
+</script>
 </body>
 </html>
