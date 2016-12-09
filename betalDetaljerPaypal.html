@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Detaljer betalkort</title>
+
+<style>
+    #cardForm{
+        margin: 20px;
+    }
+
+    .inputCard{
+       float: right;
+    }
+
+    .addCardBtn{
+        height: 40px;
+        width: 120px;
+        border: 0px;
+
+    }
+
+    .addCardBtnDiv{
+        text-align: center;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="mainContainer">
+
+    <div id="head" class="headerTop">
+        <a href="sok.html"><img src="img/sok_header.png" class="headerIcons" style="padding-top: 30px; float: right"></a>
+
+        <!--PIL TILBAKE-->
+        <a onclick="goBack()">
+        <i class="fa fa-angle-left" aria-hidden="true" style="color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left"></i>
+        </a>
+        <!--END PIL TILBAKE-->
+
+        <img src="img/finnLogo.png" class="finnLogo">
+
+    </div>
+
+    <div id="mainContent">
+        <form action="" id="cardForm">
+            Kort nummer: <input class="inputCard" type="text" name="crdNr"><br><br>
+            Kort:<br><img class="inputCard" src="img/korttyper.png"><br><br><br>
+            Måned:
+            <select class="inputCard">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select><br><br>
+            År:
+            <select class="inputCard">
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+            </select><br><br>
+            Sikkerhetskode: <input class="inputCard" type="text" name="Crc"><br><br>
+            Navn: <input class="inputCard" type="text" name="name"><br><br>
+            Adress: <input class="inputCard" type="text" name="adres"><br><br>
+            Mobiltelefon: <input class="inputCard" type="text" name="tlf"><br><br>
+            E-post: <input class="inputCard" type="text" name="email"><br><br>
+        </form>
+            <div class="addCardBtnDiv">
+                <input class="addCardBtn" onclick="location.href='betalingsKonsertMaateKent.html';" type="submit" value="Legg til">
+            </div>
+
+
+
+    </div>
+
+    <div id="foot">
+        <a href="index.html"><img class="navIcons" src="img/hjem_nav.png"></a>
+        <a href="sisteNytt.html"><img class="navIcons" src="img/sisteNytt_nav.png"></a>
+        <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
+        <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
+    </div>
+</div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+            }
+    </script>
+
+</body>
+</html>
