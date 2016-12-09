@@ -141,11 +141,7 @@ p{
     margin-right: 15px;
 }
 .ticketBtn{
-    width: 150px;
-    font-size: 1em;
     background-color: rgb(37, 120, 250);
-    color: rgb(255, 255, 255);
-    margin-bottom: 30px;
 }
 .ticketBtnDiv{
     text-align: center;
@@ -157,12 +153,19 @@ p{
 /*------------------end kent, minKamp, inferno, boSommarland-----------------------*/
 
 /*------------------kentAntallBill, minKampAntallBill, infernoAntallBill, boSommarlandAntallBill-----------------------*/
-.buyTicketBtn{
+.ticketBtn, .buyTicketBtn{
     width: 150px;
-    font-size: 1em;
-    background-color: #4CAF50;
     color: rgb(255, 255, 255);
     margin-bottom: 30px;
+    border: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+.buyTicketBtn{
+    background-color: #4CAF50;
 }
 .nrSelect{
     margin-bottom: 20px;
