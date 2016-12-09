@@ -26,18 +26,23 @@
 
 <div id="mainContainer">
 
+    <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
     <div id="head" class="headerTop">
-        <a href="sok.html"><img src="img/sok_header.png" class="headerIcons" style="padding-top: 30px; float: right"></a>
+
+        <form style="padding-top: 30px; float: right">
+	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
+        </form>
 
         <!--PIL TILBAKE-->
         <a onclick="goBack()">
-        <i class="fa fa-angle-left" aria-hidden="true" style="color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left"></i>
+        <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
         </a>
         <!--END PIL TILBAKE-->
 
-        <img src="img/finnLogo.png" class="finnLogo">
+        <img src="img/finnLogo.png" class="finnLogo" style="position: absolute; padding-left: 125px; z-index: 1;">
 
     </div>
+    <!--END NY HEADER MED SOK-->
 
     <div id="mainContent">
 
