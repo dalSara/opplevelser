@@ -53,6 +53,7 @@ p{
     #mainContent{
         width: 320px;
         height: 432px;
+        /*overflow: auto;*/
     }
 
     #foot{
@@ -147,8 +148,9 @@ p{
 .ticketBtnDiv{
     text-align: center;
 }
-.eventPlace, .eventTime{
+.eventPlace, .eventTime, .movieAge{
     font-size: 10px;
+    width: auto;
 }
 /*------------------end kent, minKamp-----------------------*/
 
