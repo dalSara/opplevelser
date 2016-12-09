@@ -130,7 +130,7 @@ p{
         }
 
 /*------------------kent, minKamp-----------------------*/
-#kent, #minKamp{
+#kent, #minKamp, #scene{
     width: 320px;
 }
 
@@ -153,14 +153,11 @@ p{
 /*------------------end kent, minKamp-----------------------*/
 
 /*------------------kentAntallBill, minKampAntallBill-----------------------*/
-.ticketBtn{
+.buyTicketBtn{
     width: 150px;
     font-size: 1em;
     background-color: #4CAF50;
     color: rgb(255, 255, 255);
-}
-.ticketBtnDiv{
-    text-align: center;
 }
 .nrSelect{
     margin-bottom: 20px;
