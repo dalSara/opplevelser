@@ -41,7 +41,6 @@ p{
         width: 320px;
         height: 68px;
         background-color: rgb(37, 120, 250);
-        position: absolute;
     }
 
     .finnLogo{
@@ -55,7 +54,7 @@ p{
     #mainContent{
         width: 320px;
         height: 432px;
-        margin-top: 68px;
+        overflow: auto;
     }
 
     #foot{
