@@ -95,6 +95,44 @@ p{
     }
 
 
+<<<<<<< HEAD
+/*---------------Search bar style--------------------------*/
+        input[type=search] {
+            background: #257afb url(../img/sok_header.png) no-repeat;
+            background-size: 33px;
+            border: none;
+            padding: 4px 4px 4px 32px;
+            width: 33px;
+            height: 33px;
+
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            transition: all .5s;
+        }
+
+        input[type=search]:hover {
+	       background-color: #257afb;
+        }
+
+        input[type=search]:focus {
+            width: 310px;
+            padding-left: 32px;
+            color: #fff;
+            background-color: #257afb;
+            cursor: auto;
+        }
+
+        input:-moz-placeholder {
+	       color: transparent;
+        }
+        input::-webkit-input-placeholder {
+	       color: transparent;
+        }
+
+        textarea:focus, input:focus{
+            outline: none;
+        }
+=======
 /*------------------Kent, Min kamp-----------------------*/
 #kent, #minKamp{
     width: 320px;
@@ -118,6 +156,7 @@ p{
 }
 /*------------------end Kent, Min kamp-----------------------*/
 
+>>>>>>> origin/master
 
 /*-----------------------------------------*/
 /*-----------------------------------------*/
