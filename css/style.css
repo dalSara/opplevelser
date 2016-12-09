@@ -133,7 +133,7 @@ p{
             outline: none;
         }
 
-/*------------------Kent, Min kamp-----------------------*/
+/*------------------kent, minKamp-----------------------*/
 #kent, #minKamp{
     width: 320px;
 }
@@ -151,11 +151,25 @@ p{
 .ticketBtnDiv{
     text-align: center;
 }
-.eventPlace{
+.eventPlace, #eventTime{
     font-size: 10px;
 }
-/*------------------end Kent, Min kamp-----------------------*/
+/*------------------end kent, minKamp-----------------------*/
 
+/*------------------kentAntallBill, minKampAntallBill-----------------------*/
+.ticketBtn{
+    width: 150px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+}
+.ticketBtnDiv{
+    text-align: center;
+}
+.nrSelect{
+    margin-bottom: 20px;
+}
+/*------------------end kentAntallBill, minKampAntallBill-----------------------*/
 
 
 /*-----------------------------------------*/
