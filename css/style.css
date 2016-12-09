@@ -95,7 +95,7 @@ p{
     }
 
 
-<<<<<<< HEAD
+
 /*---------------Search bar style--------------------------*/
         input[type=search] {
             background: #257afb url(../img/sok_header.png) no-repeat;
@@ -132,7 +132,7 @@ p{
         textarea:focus, input:focus{
             outline: none;
         }
-=======
+
 /*------------------Kent, Min kamp-----------------------*/
 #kent, #minKamp{
     width: 320px;
@@ -156,7 +156,7 @@ p{
 }
 /*------------------end Kent, Min kamp-----------------------*/
 
->>>>>>> origin/master
+
 
 /*-----------------------------------------*/
 /*-----------------------------------------*/
