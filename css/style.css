@@ -86,3 +86,62 @@ p{
 
 
 /*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+/*------------------Dine biletter payment page-----------------------*/
+
+.priceTitle{
+    text-align: center;
+}
+
+.priceBox{
+    margin: auto;
+    width: 60%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.wayOfPayment{
+    margin: auto;
+    width: 80%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+
+.showDetailsPayment{
+    text-align: right;
+    float: right;
+
+}
+.buyBtnDiv{
+    padding: 30px;
+    background-color:
+}
+
+.buyBtn{
+    margin: auto;
+    display: block;
+    background-color: #4CAF50;
+    height: 40px;
+    width: 160px;
+    font-size: 1em;
+}
+
+
+/*-----------------Takk for ditt kjøp------------------------*/
+
+.tickets{
+    text-align: left;
+    float: left;
+}
+
+.qr{
+    height: 120px;
+    position: relative;
+    left: 50px;
+}
