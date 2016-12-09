@@ -130,7 +130,7 @@ p{
         }
 
 /*------------------kent, minKamp-----------------------*/
-#kent, #minKamp, #scene{
+#kent, #minKamp, #scene, #inferno{
     width: 320px;
 }
 
@@ -147,7 +147,7 @@ p{
 .ticketBtnDiv{
     text-align: center;
 }
-.eventPlace, #eventTime{
+.eventPlace, .eventTime{
     font-size: 10px;
 }
 /*------------------end kent, minKamp-----------------------*/
