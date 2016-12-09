@@ -130,7 +130,7 @@ p{
         }
 
 /*------------------kent, minKamp-----------------------*/
-#kent, #minKamp{
+#kent, #minKamp, #scene, #inferno{
     width: 320px;
 }
 
@@ -147,20 +147,17 @@ p{
 .ticketBtnDiv{
     text-align: center;
 }
-.eventPlace, #eventTime{
+.eventPlace, .eventTime{
     font-size: 10px;
 }
 /*------------------end kent, minKamp-----------------------*/
 
 /*------------------kentAntallBill, minKampAntallBill-----------------------*/
-.ticketBtn{
+.buyTicketBtn{
     width: 150px;
     font-size: 1em;
     background-color: #4CAF50;
     color: rgb(255, 255, 255);
-}
-.ticketBtnDiv{
-    text-align: center;
 }
 .nrSelect{
     margin-bottom: 20px;
@@ -222,7 +219,7 @@ p{
 }
 
 .qr{
-    height: 120px;
+    height: 100px;
     position: relative;
     left: 50px;
 }
