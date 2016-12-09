@@ -13,7 +13,7 @@
 ---
 -*/
 
-body {
+body{
     font-family: "helvetica";
     font-weight: 100;
 }
@@ -132,7 +132,7 @@ p{
         }
 
 /*------------------kent, minKamp, inferno, boSommarland-----------------------*/
-#kent, #minKamp, #scene, #inferno, #boSommarland{
+#kent, #minKamp, #scene, #inferno, #boSommarland, #kart{
     width: 320px;
 }
 
