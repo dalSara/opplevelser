@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>dette er mallen! Copy paste - Please!</title>
+
+    <style>
+
+
+        table {
+            border-collapse: collapse;
+
+        }
+        table td, table th {
+            border: 1px solid black;
+            padding: 10px;
+            font-size: 12px;
+        }
+        table tr:first-child th {
+            border-top: 0;
+        }
+        table tr:last-child td {
+            border-bottom: 0;
+        }
+        table tr td:first-child,
+        table tr th:first-child {
+            border-left: 0;
+        }
+        table tr th:nth-child(2) {
+            width: 120px;
+        }
+        table tr th:nth-child(3) {
+            width: 90px;
+        }
+        table tr td:last-child,
+        table tr th:last-child {
+            border-right: 0;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div id="mainContainer">
+
+    <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
+    <div id="head" class="headerTop">
+
+        <a href="opplevelserNarDeg.html">
+            <i class="fa fa-map-marker" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 26px; padding-top: 33px; padding-left: 260px; width: 20px; float: right; z-index: 98;"></i>
+        </a>
+
+        <form style="padding-top: 30px; float: right">
+	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
+        </form>
+
+        <!--PIL TILBAKE-->
+        <a onclick="goBack()">
+            <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
+        </a>
+        <!--END PIL TILBAKE-->
+
+        <img src="img/finnLogo.png" class="finnLogo" style="position: absolute; padding-left: 125px; z-index: 1;">
+
+    </div>
+    <!--END NY HEADER MED SOK-->
+
+    <div id="mainContent">
+    <h3>Konserter</h3>
+
+        <table>
+            <tr>
+                <th>Dato</th>
+                <th>Artist</th>
+                <th>Billett</th>
+            </tr>
+            <tr>
+                <td>fredag<br><strong>21/10</strong><br>kl 19:00</td>
+                <td><strong>Kent</strong><br> Oslo Spektrum</td>
+                <td><a href="kent.html" class="button">Kjøp billett</a></td>
+            </tr>
+            <tr>
+                <td>fredag<br><strong>21/10</strong><br>kl 20:00</td>
+                <td><strong>Muse</strong><br>Telenor Arena</td>
+                <td><a href="" class="button">Kjøp billett</a></td>
+            </tr>
+            <tr>
+                <td>lørdag<br><strong>22/10</strong><br>kl 19:00</td>
+                <td><strong>Maria Mena</strong><br>Rockefeller</td>
+                <td><a href="" class="button">Kjøp billett</a></td>
+            </tr>
+            <tr>
+                <td>Cell (3,1)</td>
+                <td>Cell (3,2)</td>
+                <td><a href="" class="button">Kjøp billett</a></td>
+            </tr>
+            <tr>
+                <td>Cell (3,1)</td>
+                <td>Cell (3,2)</td>
+                <td><a href="" class="button">Kjøp billett</a></td>
+            </tr>
+            <tr>
+                <td>Cell (3,1)</td>
+                <td>Cell (3,2)</td>
+                <td><a href="" class="button">Kjøp billett</a></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div id="foot">
+        <a href="index.html"><img class="navIcons" src="img/hjem_nav.png"></a>
+        <a href="sisteNytt.html"><img class="navIcons" src="img/sisteNytt_nav.png"></a>
+        <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
+        <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
+    </div>
+</div>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+</body>
+</html>
