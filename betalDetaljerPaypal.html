@@ -30,6 +30,10 @@
     .addCardBtnDiv{
         text-align: center;
     }
+
+    .paypalLogo{
+        text-align: center;
+    }
 </style>
 
 </head>
@@ -56,50 +60,21 @@
     <!--END NY HEADER MED SOK-->
 
     <div id="mainContent">
+        <div class="paypalLogo">
+            <br><img src="img/paypal.png">
+        </div>
         <form action="" id="cardForm">
-            Kort nummer: <input class="inputCard" type="text" name="crdNr"><br><br>
-            Kort:<br><img class="inputCard" src="img/korttyper.png"><br><br><br>
-            Måned:
-            <select class="inputCard">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-            </select><br><br>
-            År:
-            <select class="inputCard">
-              <option value="2016">2016</option>
-              <option value="2017">2017</option>
-              <option value="2018">2018</option>
-              <option value="2019">2019</option>
-            </select><br><br>
-            Sikkerhetskode: <input class="inputCard" type="text" name="Crc"><br><br>
-            Navn: <input class="inputCard" type="text" name="name"><br><br>
-            Adress: <input class="inputCard" type="text" name="adres"><br><br>
-            Mobiltelefon: <input class="inputCard" type="text" name="tlf"><br><br>
             E-post: <input class="inputCard" type="text" name="email"><br><br>
+            Passord: <input class="inputCard" type="text" name="password"><br><br>
         </form>
             <div class="addCardBtnDiv">
-                <input class="addCardBtn" onclick="location.href='betalingsKonsertMaateKent.html';" type="submit" value="Legg til">
+                <input class="addCardBtn" onclick="goBack()" type="submit" value="Logg in">
             </div>
 
 
 
     </div>
 
-    <div id="foot">
-        <a href="index.html"><img class="navIcons" src="img/hjem_nav.png"></a>
-        <a href="sisteNytt.html"><img class="navIcons" src="img/sisteNytt_nav.png"></a>
-        <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
-        <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
-    </div>
 </div>
 
     <script>
