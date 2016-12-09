@@ -141,12 +141,16 @@ p{
 }
 .buyBtnDiv{
     padding: 30px;
+    background-color:
 }
 
 .buyBtn{
     margin: auto;
     display: block;
-
+    background-color: #4CAF50;
+    height: 40px;
+    width: 160px;
+    font-size: 1.5em;
 }
 
 
