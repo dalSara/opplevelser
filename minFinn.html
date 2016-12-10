@@ -18,6 +18,19 @@
         font-size: 1.2em;
     }
 
+    .profileImg {
+        display: block;
+        background: grey;
+        width: 90px;
+        height: 90px;
+        margin: 20px;
+        border-radius: 90px;
+    }
+
+    .linkList{
+        padding-left: 15px;
+        padding-right: 5px;
+    }
 </style>
 
 
@@ -47,10 +60,33 @@
     <div id="mainContent">
 
         <div>
-            <br><br><br><br><br>
-            <p class="yourTicketInfo">Dine billetter har blitt sendt til:<br><br>
-            ditt.navn@epost.com<br><br>
-            Du kan også finne dem under <br> dine billetter på <a href="minFinn.html">Min Finn</a></p>
+            <table>
+            <tr>
+                <td><div class="profileImg"></div></td>
+                <td><span style="font-size: 22px;">Navn Navnesen</span></td>
+            </tr>
+            </table>
+            <div class="linkList">
+                Mine annonser<br>
+                Meldinger<br>
+                Vurderinger<br>
+                <br>
+                Mine funn<br>
+                Lagrede søk<br>
+                Firmaer jeg følger<br>
+                <br>
+                Profil
+                <ul style="list-style: none; margin-top: 0; margin-bottom: 10px;">
+                    <li>Min CV</li>
+                    <li>Endre Profil</li>
+                    <li>Mine jobb-preferanser</li>
+                </ul>
+                Innstillinger<br>
+                Logg ut
+
+            </div>
+
+
 
         </div>
 
