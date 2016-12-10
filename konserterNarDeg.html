@@ -6,7 +6,28 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<title>Inferno</title>
+<title>Konserter nær deg</title>
+
+        <style>
+            h3{
+                text-align: center;
+            }
+            .eventSelect, .daySelect{
+                font-size: 12px;
+                margin-top: 10px;
+            }
+            .daySelect{
+                margin: 20px 0px 40px;
+            }
+            #gpsKonsert{
+                height: 60px;
+                position: absolute;
+            }
+            #gpsKonsert2{
+                top: 20px;
+            }
+
+        </style>
 
 </head>
 <body>
@@ -36,24 +57,45 @@
     <!--END NY HEADER MED SOK-->
 
     <div id="mainContent">
-        <img id="inferno" src="img/inferno.jpg" alt="Inferno">
 
         <div id="txtBox">
-            <p>Landon våkner opp med hukommelsestap på et sykehus i Roma, etter å ha vært utsatt for et attentat. Mens han forsøker å nøste opp i hva som har skjedd, kommer han på sporet av en eksentrisk vitenskapsmann som har planet om å utrydde halve Jordens befolkning med et virus.</p>
 
-            <p class="eventTime"><i>
-                <span style="float: left;"><b>Varighet:</b> 2 t. og 1 min.</span>
-                <span style="float: right;"><b>Aldersgrense:</b> 15 år</span></i>
-            </p>
+            <h3>Opplevelser nær deg</h3>
+
+            <select class="eventSelect">
+                <option value="Konserter">Konserter</option>
+                <option value="Teater">Teater</option>
+                <option value="Kino">Kino</option>
+                <option value="Fornøyelsespark">Fornøyelsesark</option>
+                <option value="Fornøyelsespark">Alle opplevelser</option>
+            </select>
 
             <br>
 
-            <p class="eventPlace">Colosseum <br> Fridtjof Nansens vei 6 <br> 0369 OSLO</p>
+            <select class="daySelect">
+                <option value="I dag">I dag</option>
+                <option value="I morgen">I morgen</option>
+                <option value="Søndag">Søndag</option>
+                <option value="Mandag">Mandag</option>
+                <option value="Tirsdag">Tirsdag</option>
+                <option value="Onsdag">Onsdag</option>
+                <option value="Torsdag">Torsdag</option>
+            </select>
 
-            <div class="ticketBtnDiv">
-                <input class="ticketBtn" onclick="window.location='infernoAntallBill.html';" type="submit" value="Finn billetter">
-            </div>
         </div>
+
+        <div class="mapDiv">
+            <a href="kent.html" id="gpsKonsert1">
+                <img id="gpsKonsert" src="img/gpsKonsert.png" alt="Gps-ikon for konserter">
+            </a>
+
+            <a href="kent.html" id="gpsKonsert2">
+                <img id="gpsKonsert" src="img/gpsKonsert.png" alt="Gps-ikon for konserter">
+            </a>
+
+            <img id="kart" src="img/kart.jpg" alt="Kart">
+        </div>
+
     </div>
 
     <div id="foot">

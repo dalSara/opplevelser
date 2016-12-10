@@ -8,28 +8,32 @@
 
 <title>Min kamp</title>
 
-    <style>
-
-        #foot{
-            background-color: rgb(255, 255, 255);
-        }
-
-    </style>
-
 </head>
 <body>
 
 <div id="mainContainer">
 
+    <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
     <div id="head" class="headerTop">
+
+        <!--<a href="opplevelserNarDeg.html">
+            <i class="fa fa-map-marker" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 26px; padding-top: 33px; padding-left: 260px; width: 20px; float: right; z-index: 98;"></i>
+        </a>
+
+        <form style="padding-top: 30px; float: right">
+	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
+        </form>-->
+
         <!--PIL TILBAKE-->
         <a onclick="goBack()">
             <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
         </a>
         <!--END PIL TILBAKE-->
 
-        <img src="img/finnLogo.png" class="finnLogo">
+        <img src="img/finnLogo.png" class="finnLogo" style="position: absolute; padding-left: 125px; z-index: 1;">
+
     </div>
+    <!--END NY HEADER MED SOK-->
 
     <div id="mainContent">
         <img id="minKamp" src="img/minKamp.jpg" alt="Kent">
@@ -37,7 +41,7 @@
         <div id="txtBox">
             <p>Min kamp handler om hans eget liv, om den verden han vokste opp i, om alle valgene som gjorde ham til den han ble og er. Med sin ubønnhørlige trang til å forstå, og til å leve et anstendig og sant liv, setter Knausgård navn på en norsk nåtid som vi alle hører hjemme i. Hans kamp blir vår kamp.</p>
 
-            <p class="eventTime"><i>Varighet: ca. 2 t og 20 min. inkl. pause</i></p>
+            <p class="eventTime"><i><b>Varighet:</b> ca. 2 t. og 20 min. inkl. pause</i></p>
 
             <p class="eventPlace">Oslo Nye Centralteatret <br> Akersgata 38 <br> 0180 OSLO</p>
 
@@ -47,7 +51,12 @@
         </div>
     </div>
 
-    <div id="foot"></div>
+    <div id="foot">
+        <a href="index.html"><img class="navIcons" src="img/hjem_nav.png"></a>
+        <a href="sisteNytt.html"><img class="navIcons" src="img/sisteNytt_nav.png"></a>
+        <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
+        <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
+    </div>
 
 </div>
 

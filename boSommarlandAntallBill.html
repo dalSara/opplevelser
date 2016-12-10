@@ -4,10 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css"><!--datepicker-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<title>Min kamp - billetter</title>
+<title>Bø Sommarland - billetter</title>
 
+    <style>
+        #ui-datepicker-div{
+            width: 200px;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -36,11 +43,14 @@
     <!--END NY HEADER MED SOK-->
 
     <div id="mainContent">
-        <img id="scene" src="img/scene.jpg" alt="Sitteplasser">
+        <img id="boSommarland" src="img/boSommarland.png" alt="Bø Sommarland">
 
         <div id="txtBox">
 
-            <p><b>Første plan</b><br>470.00 NOK (ink. moms)</p>
+            <p>Dato fra: <input class="datepicker" type="text"></p>
+            <p>Dato til: <input class="datepicker" type="text"></p>
+
+            <p><b>Barn (under 95 - 140 cm)</b><br>99.00 NOK (ink. moms)</p>
 
             <select class="nrSelect">
                 <option value="0">0</option>
@@ -56,7 +66,7 @@
                 <option value="10">10</option>
             </select>
 
-            <p><b>Andre plan</b><br>275.00 NOK (ink. moms)</p>
+            <p><b>Voksen (over 140 cm)</b><br>199.00 NOK (ink. moms)</p>
 
             <select class="nrSelect">
                 <option value="0">0</option>
@@ -72,7 +82,7 @@
                 <option value="10">10</option>
             </select>
 
-            <div class="ticketBtnDiv"><!--Legg inn onclick!-->
+            <div class="ticketBtnDiv"> <!--Legg inn onclick!-->
                 <input class="buyTicketBtn" onclick="window.location='';" type="submit" value="Kjøp billetter">
             </div>
         </div>
@@ -87,10 +97,18 @@
 
 </div>
 
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script><!--datepicker-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><!--datepicker-->
+
 <script>
     function goBack() {
         window.history.back();
     }
+
+    var date = $('.datepicker').datepicker({ dateFormat: 'dd-mm-yy' }).val();
+
+    $(".datepicker").datepicker();
+
 </script>
 
 </body>

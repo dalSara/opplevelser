@@ -13,7 +13,7 @@
 ---
 -*/
 
-body {
+body{
     font-family: "helvetica";
     font-weight: 100;
 }
@@ -34,6 +34,7 @@ p{
         height: 100%;
         margin-right: auto;
         margin-left: auto;
+        overflow: auto;
 
     }
     #head{
@@ -53,6 +54,7 @@ p{
     #mainContent{
         width: 320px;
         height: 432px;
+        overflow: auto;
     }
 
     #foot{
@@ -129,8 +131,8 @@ p{
             outline: none;
         }
 
-/*------------------kent, minKamp-----------------------*/
-#kent, #minKamp, #scene, #inferno{
+/*------------------kent, minKamp, inferno, boSommarland-----------------------*/
+#kent, #minKamp, #scene, #inferno, #boSommarland, #kart{
     width: 320px;
 }
 
@@ -139,30 +141,39 @@ p{
     margin-right: 15px;
 }
 .ticketBtn{
-    width: 150px;
-    font-size: 1em;
     background-color: rgb(37, 120, 250);
-    color: rgb(255, 255, 255);
 }
 .ticketBtnDiv{
     text-align: center;
 }
-.eventPlace, .eventTime{
+.eventPlace, .eventTime, .movieAge{
     font-size: 10px;
+    width: auto;
 }
-/*------------------end kent, minKamp-----------------------*/
+/*------------------end kent, minKamp, inferno, boSommarland-----------------------*/
 
-/*------------------kentAntallBill, minKampAntallBill-----------------------*/
-.buyTicketBtn{
+/*------------------kentAntallBill, minKampAntallBill, infernoAntallBill, boSommarlandAntallBill-----------------------*/
+.ticketBtn, .buyTicketBtn{
     width: 150px;
-    font-size: 1em;
-    background-color: #4CAF50;
     color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    border: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+.buyTicketBtn{
+    background-color: #4CAF50;
 }
 .nrSelect{
     margin-bottom: 20px;
 }
-/*------------------end kentAntallBill, minKampAntallBill-----------------------*/
+#datepicker{
+    background-color: rgb(255, 255, 255);
+}
+/*------------------end kentAntallBill, minKampAntallBill, infernoAntallBill, boSommarlandAntallBill-----------------------*/
 
 
 /*-----------------------------------------*/
