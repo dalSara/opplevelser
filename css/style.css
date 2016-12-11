@@ -242,8 +242,38 @@ p{
     margin-left: 150px;
 }
 /*------------------end gpskart-----------------------*/
-/*-----------------------------------------*/
-/*-----------------------------------------*/
+
+/*------------------filter style-----------------------*/
+
+        h3 {
+            text-align: center;
+        }
+
+        #filter {
+            display: none;
+            margin-left: 5px;
+        }
+
+        .filterKnapp {
+            background-color: #eee;
+            border-radius: 20px;
+            height: 15px;
+            width: auto;
+            text-align: center;
+            padding: 10px;
+            font-size: 11px;
+            margin: 3px;
+            float: left;
+        }
+
+        .filterKnapp a {
+            text-decoration: none;
+            color: #0063fb;
+        }
+
+
+/*------------------end filter style-----------------------*/
+
 
 /*------------------Dine biletter payment page-----------------------*/
 
