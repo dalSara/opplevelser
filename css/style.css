@@ -181,7 +181,28 @@ p{
 /*------------------end kentAntallBill, minKampAntallBill, infernoAntallBill, boSommarlandAntallBill-----------------------*/
 
 
-/*-----------------------------------------*/
+/*------------------Opplevelser nær deg-----------------------*/
+.eventSelect, .daySelect{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.daySelect{
+    margin: 20px 0px 40px;
+}
+#gpsKonsert, #gpsKonsert2, #gpsKonsert3{
+    height: 60px;
+    position: absolute;
+}
+#gpsKonsert2{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+#gpsKonsert3{
+    margin-top: 105px;
+    margin-left: 220px;
+}
+/*------------------end Opplevelser nær deg-----------------------*/
+
 /*-----------------------------------------*/
 /*-----------------------------------------*/
 /*-----------------------------------------*/
