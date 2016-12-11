@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<title>Startside Finn</title>
+<title>Kart</title>
 
+        <style>
+            h3{
+                text-align: center;
+            }
+
+        </style>
 
 </head>
 <body>
@@ -28,15 +31,21 @@
 	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
         </form>
 
+        <!--PIL TILBAKE-->
+        <a onclick="goBack()">
+            <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
+        </a>
+        <!--END PIL TILBAKE-->
+
         <img src="img/finnLogo.png" class="finnLogo" style="position: absolute; padding-left: 125px; z-index: 1;">
 
     </div>
     <!--END NY HEADER MED SOK-->
 
     <div id="mainContent">
-        <img src="img/startskjerm_markeder.png" style="width: 98%;">
-        <img src="img/startskjerm_ikoner_nederst.png" style="width: 67%;">
-        <a href="opplevelser.html"><img src="img/startskjerm_ikon_opplevelser.png" style="width: 30%;"></a>
+
+        <img id="gpskart" src="img/gpskart.jpg" alt="Kart">
+
     </div>
 
     <div id="foot">
@@ -45,7 +54,14 @@
         <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
         <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
     </div>
+
 </div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
 
 </body>
 </html>
