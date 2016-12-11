@@ -9,7 +9,29 @@
 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<title>Takk for ditt kjøp!</title>
+<title>Send til epost</title>
+
+<style>
+
+    .yourTicketInfo{
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .profileImg {
+        display: block;
+        background: #ddd;
+        width: 90px;
+        height: 90px;
+        margin: 20px;
+        border-radius: 90px;
+    }
+
+    .linkList{
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+</style>
 
 
 </head>
@@ -20,17 +42,13 @@
     <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
     <div id="head" class="headerTop">
 
-        <a href="opplevelserNarDeg.html">
-            <i class="fa fa-map-marker" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 26px; padding-top: 33px; margin-left: 260px; width: 20px; float: right; z-index: 98;"></i>
-        </a>
-
         <form style="padding-top: 30px; float: right">
 	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
         </form>
 
         <!--PIL TILBAKE-->
         <a onclick="goBack()">
-            <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
+        <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
         </a>
         <!--END PIL TILBAKE-->
 
@@ -40,26 +58,9 @@
     <!--END NY HEADER MED SOK-->
 
     <div id="mainContent">
-        <h3 class="priceTitle">Dine billetter</h3>
-        <div class="priceBox">
-            <p>Min Kamp - Plan 1<br>
-                2 personer<br>
-            470.00 Nok x 2<br>
-            -----------------------<br>
-            Totalt 940.00 Nok<br>
-            Hvor av moms 94.00 Nok</p>
-        </div><br>
 
-        <div class="wayOfPayment">
-            <h3 class="priceTitle">Takk for ditt kjøp!</h3>
-            <h4 class="priceTitle">Valg for billetter</h4>
-            <a href="downLoadPdf.html" class="tickets">Last ned PDF</a><br>
-            <a href="sendTilEpost.html" class="tickets">Send til min E-post<a/><br>
-        </div>
+        <img src="img/sisteNytt.png" style="width: 309px;">
 
-        <div class="qr">
-            <img src="img/qr.png" class="qr">
-        </div>
     </div>
 
     <div id="foot">
@@ -70,10 +71,11 @@
     </div>
 </div>
 
-<script>
-function goBack() {
-    window.history.back();
-}
-</script>
+    <script>
+        function goBack() {
+            window.history.back();
+                }
+    </script>
+
 </body>
 </html>
