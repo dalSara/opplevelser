@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Teater nær deg</title>
+
+        <style>
+            h3{
+                text-align: center;
+            }
+
+        </style>
+
+</head>
+<body>
+
+<div id="mainContainer">
+
+    <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
+    <div id="head" class="headerTop">
+
+        <a href="opplevelserNarDeg.html">
+            <i class="fa fa-map-marker" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 26px; padding-top: 33px; margin-left: 260px; width: 20px; float: right; z-index: 98;"></i>
+        </a>
+
+        <form style="padding-top: 30px; float: right">
+	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
+        </form>
+
+        <!--PIL TILBAKE-->
+        <a onclick="goBack()">
+            <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
+        </a>
+        <!--END PIL TILBAKE-->
+
+        <img src="img/finnLogo.png" class="finnLogo" style="position: absolute; padding-left: 125px; z-index: 1;">
+
+    </div>
+    <!--END NY HEADER MED SOK-->
+
+    <div id="mainContent">
+
+        <div id="txtBox">
+
+            <h3>Opplevelser nær deg</h3>
+
+            <select class="eventSelect" onchange="location = this.value;">
+                <option value="Teater">Teater</option>
+                <option value="kinoNarDeg.html">Kino</option>
+                <option value="fornoyelsesparkNarDeg.html">Fornøyelsesark</option>
+                <option value="konserterNarDeg.html">Konserter</option>
+                <option value="Fornøyelsespark">Alle opplevelser</option>
+            </select>
+
+            <br>
+
+            <select class="daySelect">
+                <option value="I dag">I dag</option>
+                <option value="I morgen">I morgen</option>
+                <option value="Søndag">Søndag</option>
+                <option value="Mandag">Mandag</option>
+                <option value="Tirsdag">Tirsdag</option>
+                <option value="Onsdag">Onsdag</option>
+                <option value="Torsdag">Torsdag</option>
+            </select>
+
+        </div>
+
+        <div class="mapDiv">
+            <a href="minKamp.html" id="gpsTeater1">
+                <img id="gpsTeater1" src="img/gpsTeater.png" alt="Gps-ikon for teater">
+            </a>
+
+            <a href="minKamp.html" id="gpsTeater2">
+                <img id="gpsTeater2" src="img/gpsTeater.png" alt="Gps-ikon for teater">
+            </a>
+
+            <img id="kart" src="img/kart.jpg" alt="Kart">
+        </div>
+
+    </div>
+
+    <div id="foot">
+        <a href="index.html"><img class="navIcons" src="img/hjem_nav.png"></a>
+        <a href="sisteNytt.html"><img class="navIcons" src="img/sisteNytt_nav.png"></a>
+        <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
+        <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
+    </div>
+
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>
