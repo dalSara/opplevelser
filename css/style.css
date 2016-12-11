@@ -189,7 +189,10 @@ p{
 .daySelect{
     margin: 20px 0px 40px;
 }
-#gpsKonsert, #gpsKonsert2, #gpsKonsert3, #gpsKino1, #gpsKino2, #gpsTeater1, #gpsTeater2{
+#gpsKonsert, #gpsKonsert2, #gpsKonsert3,
+#gpsKino1, #gpsKino2,
+#gpsTeater1, #gpsTeater2,
+#gpsFornoyelsespark1, #gpsFornoyelsespark2{
     height: 60px;
     position: absolute;
 }
@@ -212,6 +215,14 @@ p{
 #gpsTeater2{
     margin-top: 10px;
     margin-left: 90px;
+}
+#gpsFornoyelsespark1{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#gpsFornoyelsespark2{
+    margin-top: 50px;
+    margin-left: 10px;
 }
 /*------------------end Opplevelser nær deg-----------------------*/
 
