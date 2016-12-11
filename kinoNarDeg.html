@@ -6,7 +6,14 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<title>Min kamp</title>
+<title>Kino nær deg</title>
+
+        <style>
+            h3{
+                text-align: center;
+            }
+
+        </style>
 
 </head>
 <body>
@@ -36,19 +43,45 @@
     <!--END NY HEADER MED SOK-->
 
     <div id="mainContent">
-        <img id="minKamp" src="img/minKamp.jpg" alt="Kent">
 
         <div id="txtBox">
-            <p>Min kamp handler om hans eget liv, om den verden han vokste opp i, om alle valgene som gjorde ham til den han ble og er. Med sin ubønnhørlige trang til å forstå, og til å leve et anstendig og sant liv, setter Knausgård navn på en norsk nåtid som vi alle hører hjemme i. Hans kamp blir vår kamp.</p>
 
-            <p class="eventTime"><i><b>Varighet:</b> ca. 2 t. og 20 min. inkl. pause</i></p>
+            <h3>Opplevelser nær deg</h3>
 
-            <p class="eventPlace">Oslo Nye Centralteatret <br> Akersgata 38 <br> 0180 OSLO</p>
+            <select class="eventSelect">
+                <option value="Kino">Kino</option>
+                <option value="Fornøyelsespark">Fornøyelsesark</option>
+                <option value="Konserter">Konserter</option>
+                <option value="Teater">Teater</option>
+                <option value="Fornøyelsespark">Alle opplevelser</option>
+            </select>
 
-            <div class="ticketBtnDiv">
-                <input class="ticketBtn" onclick="window.location='minKampAntallBill.html';" type="submit" value="Finn billetter">
-            </div>
+            <br>
+
+            <select class="daySelect">
+                <option value="I dag">I dag</option>
+                <option value="I morgen">I morgen</option>
+                <option value="Søndag">Søndag</option>
+                <option value="Mandag">Mandag</option>
+                <option value="Tirsdag">Tirsdag</option>
+                <option value="Onsdag">Onsdag</option>
+                <option value="Torsdag">Torsdag</option>
+            </select>
+
         </div>
+
+        <div class="mapDiv">
+            <a href="inferno.html" id="gpsKino1">
+                <img id="gpsKino1" src="img/gpsKino.png" alt="Gps-ikon for kino">
+            </a>
+
+            <a href="inferno.html" id="gpsKino2">
+                <img id="gpsKino2" src="img/gpsKino.png" alt="Gps-ikon for kino">
+            </a>
+
+            <img id="kart" src="img/kart.jpg" alt="Kart">
+        </div>
+
     </div>
 
     <div id="foot">
