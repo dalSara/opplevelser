@@ -45,7 +45,7 @@ p{
     #head{
         width: 320px;
         height: 68px;
-        background-color: rgb(37, 120, 250);
+        background-color: #0063fb;
     }
 
     .finnLogo{
@@ -65,7 +65,7 @@ p{
     #foot{
         width: 320px;
         height: 68px;
-        background-color: rgb(37, 120, 250);
+        background-color: #0063fb;
         margin-left: auto;
         margin-right: auto;
     }
@@ -121,7 +121,7 @@ p{
             width: 310px;
             padding-left: 40px;
             color: #fff;
-            background-color: #257afb;
+            background-color: #0063fb;
             cursor: auto;
         }
 
