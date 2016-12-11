@@ -39,7 +39,7 @@ p{
         height: 100%;
         margin-right: auto;
         margin-left: auto;
-        overflow: auto;
+        overflow: hidden;
 
     }
     #head{

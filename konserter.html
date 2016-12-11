@@ -91,6 +91,7 @@
 
     <div id="mainContent">
     <h3>Konserter <i class="fa fa-filter" aria-hidden="true" style="float: right; margin-right: 5px;"></i></h3>
+
         <table>
             <tr>
                 <th>Dato</th>
@@ -140,9 +141,18 @@
 </div>
 
 <script>
-function goBack() {
-    window.history.back();
-}
+    function goBack() {
+        window.history.back();
+    }
+
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+
 </script>
 
 </body>
