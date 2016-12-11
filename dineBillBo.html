@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Dine Biletter</title>
+
+    <style>
+        /* Style the buttons that are used to open and close the accordion panel */
+        button.accordion {
+            background-color: #fff;
+            color: #444;
+            cursor: pointer;
+            padding: 3px;
+            width: 100%;
+            text-align: right;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            border-bottom: 1px #000;
+        }
+
+        /* Style the accordion panel. Note: hidden by default */
+        div.panel {
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+        }
+
+        /* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+        div.panel.show {
+            display: block;
+        }
+
+        button.accordion:after {
+            content: '\02795'; /* Unicode character for "plus" sign (+) */
+            font-size: 9px;
+            color: #777;
+            float: right;
+            margin-left: 5px;
+        }
+
+        button.accordion.active:after {
+            content: "\2796"; /* Unicode character for "minus" sign (-) */
+        }
+    </style>
+</head>
+<body>
+
+<div id="mainContainer">
+
+    <!--NY HEADER MED SØK (husk stylesheet for font awesome-->
+    <div id="head" class="headerTop">
+
+        <a href="opplevelserNarDeg.html">
+            <i class="fa fa-map-marker" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 26px; padding-top: 33px; margin-left: 260px; width: 20px; float: right; z-index: 98;"></i>
+        </a>
+
+        <form style="padding-top: 30px; float: right">
+	       <input type="search" placeholder="Search" style="position: relative; z-index: 99;">
+        </form>
+
+        <!--PIL TILBAKE-->
+        <a onclick="goBack()">
+            <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; color: #ffffff; font-size: 24px; padding-top: 33px; padding-left: 10px; width: 20px; float: left; z-index: 2;"></i>
+        </a>
+        <!--END PIL TILBAKE-->
+
+        <img src="img/finnLogo.png" class="finnLogo" style="position: absolute; padding-left: 125px; z-index: 1;">
+
+    </div>
+    <!--END NY HEADER MED SOK-->
+
+    <div id="mainContent">
+        <h3 class="priceTitle">Dine billetter</h3>
+        <div class="priceBox">
+            <p>Kent 2 voksne<br>
+            635.00 Nok x 2<br>
+            -----------------------<br>
+            Totalt 1270.00 Nok<br>
+            Hvor av moms 127.00 Nok</p>
+        </div><br>
+
+        <div class="wayOfPayment">
+            <h4 class="priceTitle">Tilleggstjenster</h4>
+                <p>Fly</p>
+                <button class="accordion">Vis detaljer</button>
+                    <div class="panel">
+                        <p>
+                            <span style="font-size: 18px; font-weight: 600;">Trondheim - Oslo</span><br>
+                            22. okt - 24. okt<br><br>
+                            <img src="img/norwegian.jpg" style="width: 40px;">
+                            <br>
+                            22. okt. kl. 15:05 - 16:05<br>
+                            24. okt. kl. 10:00 - 10:55<br><br>
+                             <span style="float: right;"><strong><u>2040 NOK</u></strong></span>
+
+                            <br><br>
+
+                            <form action="">
+                                <input type="checkbox" name="vehicle" value="Bike">
+                                <small>Setereservasjon (+ 60 NOK)</small>
+                            </form>
+                            <br><br>
+                            <img src="img/norwegianSeter.jpg" style="width: 222px;display: block; margin: 0 auto;">
+                        </p>
+                    </div>
+                <p>Hotell</p>
+                <button class="accordion">Vis detaljer</button>
+        </div>
+
+        <div class="buyBtnDiv">
+            <input class="buyBtn" onclick="location.href='betalingsKonsertMaateKent.html';" type="submit" value="Bekreft">
+        </div>
+    </div>
+
+    <div id="foot">
+        <a href="index.html"><img class="navIcons" src="img/hjem_nav.png"></a>
+        <a href="sisteNytt.html"><img class="navIcons" src="img/sisteNytt_nav.png"></a>
+        <a href="minFinn.html"><img  class="navIcons" src="img/minFinn_nav.png"></a>
+        <a href="nyAnnonse.html"><img class="navIcons" src="img/nyAnnonse_nav.png"></a>
+    </div>
+</div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        /* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+    </script>
+
+</body>
+</html>
